@@ -1,15 +1,18 @@
-console.log([1, 2, 3])
-console.log([0, 1, 2, 3])
-console.log(['Alpha', 100, true])
+var array = ['Iron Man', 'Marvel', true];
+console.log(array[0])
+console.log(array[2])
 
-const person = ['Alpha', 100, true]
+console.log(['900kg', 'heavy', 3])
+console.log(['Batman', 500, true])
 
-console.log(person)
-console.log(person[0])
-console.log(person[1])
-console.log(person[2])
+let foods = ['indome', 'supermie', true];
+console.log(foods[1])
 
-alert(person)
-alert(person[0])
-alert(person[1])
-alert(person[2])
+//note: array can contain: string, boolean, number
+const things = ['Iron-Man', 100, false];
+console.log(things)
+console.log(things[2])
+console.log(things[1])
+
+alert(things)
+alert(things[0])
